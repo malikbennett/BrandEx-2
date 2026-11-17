@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **AI Disclosure:** This project utilizes AI-assisted coding tools. A full disclosure of its use, as required by university policy, can be found in [AI Disclosure.pdf](AI Disclosure.pdf).
 
-A full-featured desktop E-Commerce application built with **JavaFX** and **PostgreSQL**, engineered with custom data structures and design patterns.
+A full-featured desktop E-Commerce application built with **JavaFX** and **PostgreSQL**.
 
 ---
 
