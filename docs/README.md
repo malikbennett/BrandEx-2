@@ -314,13 +314,13 @@ To build the Windows installer from source:
 mvn clean package dependency:copy-dependencies
 
 # Step 2: Copy the main JAR into the dependency folder
-cp target/brandex-1.0-SNAPSHOT.jar target/dependency/
+cp target/brandex-1.0.0.jar target/dependency/
 
 # Step 3: Run jpackage to create the .exe installer
 jpackage \
   --input target/dependency \
   --name BrandEx \
-  --main-jar brandex-1.0-SNAPSHOT.jar \
+  --main-jar brandex-1.0.0.jar \
   --main-class com.brandex.Main \
   --type exe \
   --app-version 1.0 \
