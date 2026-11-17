@@ -1,0 +1,16 @@
+module com.brandex {
+    requires transitive javafx.controls;
+    requires transitive javafx.fxml;
+    requires transitive javafx.graphics;
+    requires java.sql;
+    requires org.postgresql.jdbc;
+    requires jakarta.mail;
+    requires atlantafx.base;
+    requires org.controlsfx.controls;
+
+    opens com.brandex to javafx.fxml, javafx.graphics;
+    opens com.brandex.ui to javafx.fxml;
+    opens com.brandex.models to javafx.fxml, javafx.base;
+
+    exports com.brandex;
+}

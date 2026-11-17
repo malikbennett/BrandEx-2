@@ -1,0 +1,50 @@
+# ===========================
+# Credentials
+# ===========================
+/src/main/resources/com/brandex/config.properties
+
+# ===========================
+# Maven build output
+# ===========================
+target/
+*.class
+*.jar
+*.war
+*.exe
+*.msi
+*.zip
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# Java
+# ===========================
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# IntelliJ
+# ===========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===========================
+# Maven wrapper
+# ===========================
+.mvn/wrapper/maven-wrapper.jar
